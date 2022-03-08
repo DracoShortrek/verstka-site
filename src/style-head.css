@@ -1,0 +1,100 @@
+/*------------ХЕДЕР-----------*/
+
+.headers{
+    color: #34344344;
+    background: none; 
+    top: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    z-index: 80;
+    display: block;
+}
+
+
+
+.logo{
+    margin-top: 5px;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    align-items: center;   
+    width: 50%; 
+}
+
+.logo-image{
+    max-height: 7.5vh;
+}
+
+.logo-text{
+    margin-left: 5px;
+    margin-right: 5px;
+    max-height: 16vh;
+    color: #0C143B;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:500 ;
+    font-size: 20px;
+}
+
+.container-head{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    max-height: 10vh;
+    position: relative;
+}
+
+.head-information{
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    max-height: 16vh;
+    color: #0C143B;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:600 ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.information-up{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.information-down{
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.button-head{
+    border-radius: 20px;
+    font-weight: 300;
+    color: #ffffff ;
+    border: none;
+    padding: 2px 50px;
+    background-color: #FE334A;
+}
+    
+.button-head:hover {
+    background-color: rgb(251, 66, 66);
+}
+
+
+a.elem-header{
+    text-decoration: underline;
+    text-decoration-color: #FE334A;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
+}
+
+
+.elem-header{
+    font-size: 22px;
+    margin: 0px 10px;
+    font-weight: 300 ;
+    display: inline-flex;
+}
+
+/*-----------------------*/
